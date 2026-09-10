@@ -1,0 +1,10 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TPS543021")(type "KiCad")(uri "${KIPRJMOD}/LocalLibraries/ul_PTPS543021DRLR/KiCADv6/2026-05-26_00-52-24.kicad_sym")(options "")(descr "4.5V to 30V input, 3A, 400kHz synchronous buck converter "))
+  (lib (name "LDFMPUR")(type "KiCad")(uri "${KIPRJMOD}/LocalLibraries/LDFMPUR/KiCADv6/2026-05-27_04-53-54.kicad_sym")(options "")(descr ""))
+  (lib (name "ADS1115IDYNR")(type "KiCad")(uri "${KIPRJMOD}/LocalLibraries/ADS1115IDYNR/KiCADv6/2026-05-27_07-53-44.kicad_sym")(options "")(descr ""))
+  (lib (name "ADS1115IDGSR")(type "KiCad")(uri "${KIPRJMOD}/LocalLibraries/ADS1115IDGSR/KiCADv6/2026-05-27_07-56-43.kicad_sym")(options "")(descr ""))
+  (lib (name "DCJ200-10-A-XX-K_REVA")(type "KiCad")(uri "${KIPRJMOD}/LocalLibraries/DCJ200_10_A_K1_K/DCJ200-10-A-XX-K_REVA.kicad_sym")(options "")(descr ""))
+  (lib (name "LSM115JE3_TR13")(type "KiCad")(uri "${KIPRJMOD}/LocalLibraries/LSM115JE3_TR13/2026-06-02_02-06-09.kicad_sym")(options "")(descr ""))
+  (lib (name "TC7662BCOA713/")(type "KiCad")(uri "${KIPRJMOD}/LocalLibraries/TC7662BCOA713/KiCADv6/2026-06-02_05-46-34.kicad_sym")(options "")(descr ""))
+)

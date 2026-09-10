@@ -1,0 +1,290 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "25ad4f34-e767-4e7b-a7a0-17177ae42e7b")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 85.09 55.88) (xy 113.03 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e128394-635b-4e66-88a5-859e997fa4bb")
+	)
+	(wire
+		(pts
+			(xy 113.03 48.26) (xy 85.09 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a1243d-ce44-4cb7-8af2-6ad258d39443")
+	)
+	(wire
+		(pts
+			(xy 85.09 59.69) (xy 113.03 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f4f7e4-bdff-41dd-93d4-dc5b7927d1ad")
+	)
+	(wire
+		(pts
+			(xy 113.03 66.04) (xy 85.09 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf228818-6050-451a-a81f-203a1f272640")
+	)
+	(wire
+		(pts
+			(xy 113.03 52.07) (xy 85.09 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbf2f43a-368f-42b4-b41e-090bd93748d5")
+	)
+	(sheet
+		(at 113.03 43.18)
+		(size 58.42 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3a07a0d0-63de-4f27-b3c6-03c55c6023a6")
+		(property "Sheetname" "Control Loops, FET Control"
+			(at 113.03 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fetcontrol.kicad_sch"
+			(at 113.03 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DAC_CV" input
+			(at 113.03 66.04 180)
+			(uuid "96260ff0-e823-4026-a874-f2cf2e69b8a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_CC" input
+			(at 113.03 59.69 180)
+			(uuid "dd1ae6d1-bb7e-4f59-9bf9-833e4c6ad7b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_CV_OUT" output
+			(at 113.03 55.88 180)
+			(uuid "d0c97585-672c-4a29-ab9d-fb6c6308f308")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_RTOP" output
+			(at 113.03 52.07 180)
+			(uuid "25e5c186-2533-4143-a02f-78077504c8f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_RBOT" output
+			(at 113.03 48.26 180)
+			(uuid "bbdb5bd5-921e-484d-916d-3ca9cea41e67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Leeload 0p1"
+				(path "/25ad4f34-e767-4e7b-a7a0-17177ae42e7b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 105.41)
+		(size 50.8 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6cfb1368-de7f-4a29-9d27-e4518f08ac8e")
+		(property "Sheetname" "DC Power"
+			(at 41.91 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dc_power.kicad_sch"
+			(at 41.91 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Leeload 0p1"
+				(path "/25ad4f34-e767-4e7b-a7a0-17177ae42e7b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 44.45)
+		(size 43.18 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "76d3e981-4aa2-4dcc-a2b4-7e426b59072d")
+		(property "Sheetname" "Arduino Control"
+			(at 41.91 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ArduinoControl.kicad_sch"
+			(at 41.91 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DAC_CC" output
+			(at 85.09 59.69 0)
+			(uuid "c74db177-f98f-41f6-a8d3-7e7fd798f45d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_CV" output
+			(at 85.09 66.04 0)
+			(uuid "23672584-be81-418e-8165-b1deaf903576")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN+" input
+			(at 85.09 52.07 0)
+			(uuid "6cae735f-405b-419e-af92-57c0bbad335b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN-" input
+			(at 85.09 48.26 0)
+			(uuid "16780777-6eaa-48b4-8b60-2f833d4e8df4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_CV_OUT" input
+			(at 85.09 55.88 0)
+			(uuid "f6a1bb90-1cb8-4a22-bb7f-7fe1ffec42e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Leeload 0p1"
+				(path "/25ad4f34-e767-4e7b-a7a0-17177ae42e7b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
