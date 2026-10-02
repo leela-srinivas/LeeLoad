@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "25ad4f34-e767-4e7b-a7a0-17177ae42e7b")
 	(paper "A4")
 	(lib_symbols)
@@ -68,11 +68,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "3a07a0d0-63de-4f27-b3c6-03c55c6023a6")
 		(property "Sheetname" "Control Loops, FET Control"
 			(at 113.03 42.4684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82,6 +84,8 @@
 		)
 		(property "Sheetfile" "fetcontrol.kicad_sch"
 			(at 113.03 83.1346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -160,11 +164,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "6cfb1368-de7f-4a29-9d27-e4518f08ac8e")
 		(property "Sheetname" "DC Power"
 			(at 41.91 104.6984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,6 +180,8 @@
 		)
 		(property "Sheetfile" "dc_power.kicad_sch"
 			(at 41.91 130.1246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -202,11 +210,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "76d3e981-4aa2-4dcc-a2b4-7e426b59072d")
 		(property "Sheetname" "Arduino Control"
 			(at 41.91 43.7384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,6 +226,8 @@
 		)
 		(property "Sheetfile" "ArduinoControl.kicad_sch"
 			(at 41.91 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
